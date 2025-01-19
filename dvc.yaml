@@ -1,0 +1,10 @@
+plots:
+- balanced_labels.png
+- val_cm:
+    template: confusion
+    x:
+      validation_confusion_matrix_data.csv: predicted
+    y:
+      validation_confusion_matrix_data.csv: actual
+    y_label: 'true'
+    title: Validation Confusion Matrix
